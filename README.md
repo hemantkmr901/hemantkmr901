@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @hemantkmr901
-- 👀 I’m interested in HTML,CSS,JAVASCRIPT
-- 🌱 I’m currently learning CSS
+- 👀 I’m interested in HTML,CSS,JAVASCRIPT,NODE.JS
+- 🌱 I’m currently learning JAVASCRIPT
 - 💞️ I’m looking to collaborate on CSS.JAVASCRIPT
 - 📫 U can mail me "hemantkmr901@gmail.com"
 
