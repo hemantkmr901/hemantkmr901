@@ -1,4 +1,6 @@
 const express = require('express')
+const model = require('../model/model')
+
 // const { appendFileSync } = require('fs')
 const app = express()
 const path = require('path')
@@ -16,27 +18,23 @@ app.use(express.static(staticPath))
 
 
 app.get('/', (req, res) => {
-    res.render('index', { channelName: 'Hemant', linkActive: 'none' })
+    // model.createDocument()
+    res.render('index')
 })
-app.get('/contact', (req, res) => {
-    res.render('contact', { channelName: 'Hemant', linkActive: 'active' })
-})
-app.get('/gallery', (req, res) => {
-    res.render('gallery', { channelName: 'Hemant', linkActive: 'active' })
-})
+// app.get('/contact', (req, res) => {
+//     res.render('contact', { channelName: 'Hemant', linkActive: 'active' })
+// })
+// app.get('/gallery', (req, res) => {
+//     res.render('gallery', { channelName: 'Hemant', linkActive: 'active' })
+// })
 
-app.get('/single', (req, res) => {
-    res.render('single', { channelName: 'Hemant', linkActive: 'active' })
-})
+// app.get('/single', (req, res) => {
+//     res.render('single', { channelName: 'Hemant', linkActive: 'active' })
+// })
 
-// This get function is not working
-app.get("/single/*", (req, res) => {
-    res.render('404', {errorComment:'Oops.. single page not found!'});
-})
-
-app.get('*', (req, res) => {
-    res.render('404', {errorComment:'Oops.. page not found!'});
-})
+// app.get('*', (req, res) => {
+//     res.render('404', {errorComment:'Oops.. page not found!'});
+// })
 
 app.listen(8000, () => {
     console.log('Server listening');
