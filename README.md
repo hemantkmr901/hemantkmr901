@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @hemantkmr901
 - 👀 I’m interested in HTML, CSS, JAVASCRIPT, REACT, NODE.JS
 - 🌱 I’m currently learning JAVASCRIPT
-- 💞️ I’m looking to collaborate on CSS.JAVASCRIPT
+- 💞️ I’m looking to collaborate on CSS, JAVASCRIPT, REACT
 - 📫 U can mail me "hemantkmr901@gmail.com"
 
 <!---
